@@ -11,23 +11,13 @@ const Article = ({ post }: { post: any }) => {
         ></p>
       </div>
 
-      <div className="text-sm text-gray-500 inline-flex items-center">
-        <a href="#">
-          <img
-            className="w-8 h-8 rounded-full inline-block mr-2"
-            src="https://avatars0.githubusercontent.com/u/8238734?s=460&u=4fb91c2850a8e1e7aeb7c2c7a7c7c27f97230823&v=4"
-            alt="Asian Girl Avatar"
-          />{" "}
-          Niyaz |
-        </a>
-        <a href="#" className="ml-1 hover:underline text-xs font-light">
-          {dateHumanize(post.modified)}
-        </a>
+      <div className="text-sm text-gray-500 inline-flex items-center py-4">
+        Niyaz | {dateHumanize(post.modified)}
       </div>
 
       <div className="py-4">
         <Link href={`/blog`}>
-          <button className="text-gray-500 bg-blue-500 py-4">Go Back</button>
+          <button className="text-gray-500 bg-blue-500">&larr; Go Back</button>
         </Link>
       </div>
     </div>

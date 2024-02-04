@@ -10,7 +10,7 @@ const Articles = () => {
     <>
       <section className="py-8 animation-fade animation-delay relative">
         <div className="container mx-auto px-0 sm:px-5">
-          <PageTitle title={"News"} />
+          <PageTitle title={"Technology News"} />
           {isLoading ? <EmptyCard /> : ""}
           {posts &&
             posts.map((post: any) => <Article key={post.id} post={post} />)}
