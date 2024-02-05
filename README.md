@@ -10,8 +10,7 @@
 1. `pnpm install`
 1. `pnpm dev`
 1. Visit `localhost:3000`
-1. To run tests `pnpm test`
-1. This app has been deployed into Vercel. 
+1. This app has been deployed into Vercel. `https://mutipurpose-next-ts-app.vercel.app`
 
 ## Learn More
 
