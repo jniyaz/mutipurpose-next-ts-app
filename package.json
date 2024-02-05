@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test:unit": "vitest --root src/"
+    "test:unit": "vitest"
   },
   "dependencies": {
     "next": "14.1.0",
@@ -17,11 +17,13 @@
   "devDependencies": {
     "@headlessui/react": "^1.7.18",
     "@heroicons/react": "^2.1.1",
+    "@testing-library/jest-dom": "^6.4.2",
     "@testing-library/react": "^14.2.1",
     "@testing-library/react-hooks": "^8.0.1",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@vitejs/plugin-react": "^4.2.1",
     "autoprefixer": "^10.0.1",
     "dayjs": "^1.11.10",
     "eslint": "^8",
