@@ -10,6 +10,7 @@
 1. `pnpm install`
 1. `pnpm dev`
 1. Visit `localhost:3000`
+1. For testing 1. `pnpm test`
 1. This app has been deployed into Vercel. `https://mutipurpose-next-ts-app.vercel.app`
 
 ## CSR vs SSR
@@ -25,10 +26,11 @@
 - Benefits: Highly interactive UIs, faster rendering than SSR, Simple development approach.
 
 ## App Improvements:
+
 - App to be used with Global State Management for global data.
 - App to be improved with unit and e2e tests.
-- To be added with env file and translations support. 
-- To be added with more interactive Tailwind components. 
+- To be added with env file and translations support.
+- To be added with more interactive Tailwind components.
 
 ## Learn More
 
