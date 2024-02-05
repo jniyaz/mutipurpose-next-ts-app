@@ -1,8 +1,9 @@
 import Link from "next/link";
 import { dateHumanize } from "@/utils/date";
 import PageTitle from "@/components/Main/PageTitle";
+import { ArticleType } from "@/types/Article";
 
-const Article = ({ post }: { post: any }) => {
+const Article = ({ post }: { post: ArticleType }) => {
   return (
     <div className="px-6 bg-gray-200 border-2 border-gray-700">
       <div>
@@ -19,7 +20,9 @@ const Article = ({ post }: { post: any }) => {
           <span>Niyaz | {dateHumanize(post.modified)}</span>
         </div>
         <Link href={`blog/${post.id}`}>
-          <button className="rounded-full text-gray-700">Read more &rarr;</button>
+          <button className="rounded-full text-gray-700">
+            Read more &rarr;
+          </button>
         </Link>
       </div>
       <hr />

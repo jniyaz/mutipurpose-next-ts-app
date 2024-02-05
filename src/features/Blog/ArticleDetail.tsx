@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { dateHumanize } from "@/utils/date";
+import { ArticleType } from "@/types/Article";
 
-const Article = ({ post }: { post: any }) => {
+const Article = ({ post }: { post: ArticleType }) => {
   return (
     <div className="px-6 my-6 sm:px-8 md:px-12 py-6 sm:py-8 bg-white border-2 border-gray-200 sm:rounded-lg w-9/12 md:w-full mx-auto">
       <div className="mb-4">

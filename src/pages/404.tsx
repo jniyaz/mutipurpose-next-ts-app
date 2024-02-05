@@ -9,13 +9,13 @@ function Errors({ statusCode }: any) {
             <header className="mb-6">
               {/* <h2 className="text-4xl font-bold leading-none text-gray-400 select-none lg:text-6xl">{statusCode}.</h2> */}
               <h3 className="text-xl font-light leading-normal lg:text-3xl md:text-3xl">
-                Sorry, we couldn't find this page.
+                {`Sorry, we couldn't find this page.`}
               </h3>
             </header>
 
             <p className="max-w-sm mb-5 leading-5 md:leading-7">
-              Don't worry, sometimes even we make mistakes. You can find plenty
-              of other things on our homepage.
+              {`Don't worry, sometimes even we make mistakes. You can find plenty
+              of other things on our homepage.`}
             </p>
 
             <Link href="/">
